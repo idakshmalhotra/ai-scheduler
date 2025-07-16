@@ -37,8 +37,7 @@ load_dotenv()
 # --- MongoDB Setup ---
 # Connect to your MongoDB database
 client = MongoClient(
-    "mongodb+srv://kbharat84265:SjgpL1UbSskmfFBO@cluster0.tfyruuc.mongodb.net/"
-    "e-commerce?retryWrites=true&w=majority&appName=Cluster0"
+    ""
 )
 db = client['scheduler']
 users_collection = db['users']
